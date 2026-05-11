@@ -7,7 +7,7 @@ import requests
 import json
 
 # --- KONFIGURÁCIÓ ---
-WEBHOOK_URL = "https://webhook.site/4cd24b04-c789-4250-bf5b-b02bd0d840a4"  
+WEBHOOK_URL = "http://localhost:8000/webhook/powermocker"  
 OUTPUT_DIR = "haz_adatok"
 
 def trigger_webhook(payload):
