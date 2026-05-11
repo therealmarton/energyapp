@@ -1,0 +1,184 @@
+{
+  "app": {
+    "title": "Energiaközösség",
+    "brand": "EnergyCo",
+    "tagline": "Középár-modell",
+    "footer": "MVP · proof of concept"
+  },
+  "lang": { "label": "Nyelv" },
+  "nav": {
+    "home": "Kezdőlap",
+    "mySavings": "Megtakarításaim",
+    "community": "Közösség",
+    "prosumerProfit": "Prosumer bevétel",
+    "live": "Élő",
+    "settings": "Beállítások"
+  },
+  "switcher": {
+    "title": "Váltás ház között",
+    "signedInAs": "Bejelentkezve mint {{name}}"
+  },
+  "welcome": {
+    "kicker": "Energiaközösség MVP",
+    "title": "Ki jelentkezik be?",
+    "subtitle": "Válaszd ki a háztartásodat a belépéshez. Csak a saját megtakarításaidat látod — váltani a Beállítások oldalon tudsz kijelentkezéssel.",
+    "selectLabel": "Válassz háztartást",
+    "cardCta": "Belépés ezzel a házzal →",
+    "price": {
+      "buy": "Hálózati vétel",
+      "community": "Közösségi ár",
+      "sell": "Hálózati eladás"
+    }
+  },
+  "filters": {
+    "start": "Kezdet",
+    "end": "Vég",
+    "apply": "Alkalmaz",
+    "reset": "Vissza 2026 júniusra",
+    "dataRange": "Időszak",
+    "records": "rekord",
+    "preset": { "day": "Nap", "week": "Hét", "month": "Hónap", "year": "Év" }
+  },
+  "actions": {
+    "dropData": "Adatok törlése",
+    "dropConfirm": "Biztosan törlöd az összes energia-rekordot?",
+    "dropped": "Adatok sikeresen törölve.",
+    "demoMode": "Demó mód"
+  },
+  "home": {
+    "greeting": "Üdv vissza",
+    "welcomeTitle": "A közösséged egy pillantásra",
+    "welcomeBody": "Ez az irányítópult a hagyományos hálózati számlát hasonlítja össze a közösség Középár-modelljével, hogy minden háztartás forintban lássa, mennyit ér a megosztott energia.",
+    "viewSavings": "Megtakarításaim",
+    "shortcutsTitle": "Gyors navigáció",
+    "shortcutsSubtitle": "Minden oldal követi a kiválasztott időszakot és aktív háztartást.",
+    "shortcuts": {
+      "mySavings": "Mennyit spórolhatna a háztartásod ebben a hónapban.",
+      "community": "Összesített megtakarítás, önellátás és háztartások bontása.",
+      "profit": "Mennyit keres egy prosumer a közösségnek eladva a hálózati ár helyett.",
+      "live": "A legutóbbi óra kínálata és kereslete a közösségben."
+    },
+    "kpis": {
+      "communitySavings": "Közösségi megtakarítás",
+      "selfSufficiency": "Önellátás",
+      "selfSufficiencyHint": "A kereslet közösségi nappal fedett aránya",
+      "yourSavings": "Saját megtakarításod",
+      "yourImport": "Hálózati vételed",
+      "importHint": "Közösségi elosztás előtt"
+    }
+  },
+  "ab": {
+    "title": "Közösség nélkül vs Közösséggel",
+    "subtitle": "Teljes költség a kiválasztott időszakra",
+    "titlePersonal": "{{name}} · közösség nélkül vs közösséggel",
+    "subtitlePersonal": "A te háztartásod a kiválasztott időszakban",
+    "without": "Közösség nélkül",
+    "withoutHint": "Csak hálózati alap",
+    "with": "Közösséggel",
+    "withHint": "Középár (22,5 Ft/kWh megosztva)",
+    "savings": "Megtakarítás",
+    "selfSufficiency": "Közösségi önellátás",
+    "hoursAnalysed": "Elemzett órák",
+    "vsBaseline": "alaphoz képest",
+    "unit": "Ft"
+  },
+  "community": {
+    "prosumer": "Prosumer",
+    "consumer": "Fogyasztó",
+    "you": "Ez te vagy",
+    "name": "Ház",
+    "role": "Szerep",
+    "import": "Vétel (kWh)",
+    "export": "Betáplálás (kWh)",
+    "baseline": "Alap (Ft)",
+    "communityCost": "Közösségi (Ft)",
+    "savings": "Megtakarítás (Ft)",
+    "profitExtra": "Többletbevétel (Ft)",
+    "selfSufficiency": "Önellátás",
+    "table": {
+      "title": "Háztartásonkénti elszámolás",
+      "subtitle": "Név szerint rendezve. A pozitív megtakarítás azt jelenti, hogy a közösségi modell olcsóbb a csak-hálózati alapnál."
+    },
+    "kpi": {
+      "savings": "Teljes megtakarítás",
+      "selfSufficiency": "Önellátás",
+      "selfSufficiencyHint": "A kereslet közösségi nappal fedett aránya",
+      "households": "Háztartások",
+      "totalEnergy": "Fogyasztott energia",
+      "generated": "termelve"
+    }
+  },
+  "profit": {
+    "title": "Prosumer többletbevétel",
+    "description": "Bevétel, amikor a közösségnek ad el 22,5 Ft/kWh áron a hálózati 5 Ft/kWh helyett.",
+    "gridOnly": "Ha hálózatnak (5 Ft)",
+    "community": "Közösségnek (22,5 Ft)",
+    "increment": "Növekmény",
+    "breakdownTitle": "Prosumerenkénti növekmény",
+    "kpi": {
+      "totalIncrement": "Teljes többletbevétel",
+      "totalIncrementHint": "Minden prosumernél az időszakban",
+      "soldToCommunity": "Közösségnek megosztott",
+      "gridOnlyWouldBe": "Csak hálózati esetén",
+      "gridOnlyHint": "Ha minden megosztott kWh 5 Ft-ért ment volna a hálózatba"
+    },
+    "diffLabel": "(22,5 Ft − 5 Ft × kWh)"
+  },
+  "my": {
+    "importFromGrid": "Hálózatról vételezve",
+    "importFromCommunity": "Közösségtől vásárolva",
+    "exportToCommunity": "Közösségnek eladva",
+    "exportToGrid": "Hálózatnak eladva",
+    "vsGrid": "hálózati árhoz képest",
+    "profitIncrement": {
+      "title": "Többletbevétel a közösségből",
+      "body": "Prosumerként minden közösségnek megosztott kWh 22,5 Ft-ot hozott 5 Ft helyett.",
+      "explain": "Ez a szám a kiválasztott időszakban közösségnek eladott kWh-ból számítódik."
+    }
+  },
+  "source": {
+    "title": "Valós idejű forrás-összetétel",
+    "subtitle": "Az időszak utolsó elszámolt órája",
+    "solar": "Napelem (közösség)",
+    "grid": "Hálózat"
+  },
+  "live": {
+    "recentTitle": "Utolsó 12 elszámolt óra",
+    "recentSubtitle": "Közösségi kínálat és kereslet gördülő nézet",
+    "hour": "Óra",
+    "supply": "Kínálat",
+    "demand": "Kereslet",
+    "selfSuff": "Önellátás"
+  },
+  "settings": {
+    "records": "Tárolt rekordok",
+    "first": "Első rekord",
+    "last": "Utolsó rekord",
+    "account": {
+      "title": "Bejelentkezett háztartás",
+      "subtitle": "Az identitásod erre a munkamenetre rögzítve van. Kijelentkezéssel visszatérsz a választó képernyőhöz.",
+      "signOut": "Kijelentkezés / Háztartásváltás"
+    },
+    "window": {
+      "title": "Aktív időszak",
+      "subtitle": "Az időszakvezérlők a fejlécben találhatók és minden oldalra érvényesek."
+    },
+    "danger": {
+      "title": "Nullázás új adatfeltöltéshez",
+      "subtitle": "Ezzel törlöd az összes mért adatot a PowerMocker újbóli feltöltése előtt.",
+      "body": "A felhasználókat megőrzi; csak az energy_records tábla ürül."
+    }
+  },
+  "charts": {
+    "savings": {
+      "title": "Napi költség-összehasonlítás",
+      "subtitle": "Naponta összegzett órás elszámolás a kiválasztott időszakban"
+    },
+    "self": {
+      "title": "Napi önellátás",
+      "subtitle": "A közösségi kereslet napi fedettsége saját termelésből"
+    }
+  },
+  "loading": "Betöltés…",
+  "noData": "Még nincs adat. Futtasd a PowerMocker feltöltőt."
+}

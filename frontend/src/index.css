@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply text-slate-800 bg-slate-100 antialiased;
+    font-feature-settings: "cv11", "ss01", "ss03";
+  }
+}
+
+@layer components {
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 px-3 py-2 rounded-md text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors;
+  }
+  .nav-item-active {
+    @apply bg-brand-600 text-white hover:bg-brand-600 hover:text-white;
+  }
+  .card {
+    @apply bg-white border border-slate-200 rounded-xl shadow-card;
+  }
+  .card-pad {
+    @apply p-5 sm:p-6;
+  }
+  .pill {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+}

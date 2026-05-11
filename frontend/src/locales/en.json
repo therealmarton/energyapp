@@ -1,0 +1,184 @@
+{
+  "app": {
+    "title": "Energy Community",
+    "brand": "EnergyCo",
+    "tagline": "Mid-Price settlement",
+    "footer": "MVP · proof of concept"
+  },
+  "lang": { "label": "Language" },
+  "nav": {
+    "home": "Home",
+    "mySavings": "My Savings",
+    "community": "Community",
+    "prosumerProfit": "Prosumer Profit",
+    "live": "Live",
+    "settings": "Settings"
+  },
+  "switcher": {
+    "title": "Switch household",
+    "signedInAs": "Signed in as {{name}}"
+  },
+  "welcome": {
+    "kicker": "Energy Community MVP",
+    "title": "Who is signing in?",
+    "subtitle": "Pick your household to enter the dashboard. You will only be able to see and compare your own savings — to switch, sign out from Settings.",
+    "selectLabel": "Select a household",
+    "cardCta": "Enter as this household →",
+    "price": {
+      "buy": "Grid buy",
+      "community": "Community price",
+      "sell": "Grid sell"
+    }
+  },
+  "filters": {
+    "start": "Start",
+    "end": "End",
+    "apply": "Apply",
+    "reset": "Reset to June 2026",
+    "dataRange": "Window",
+    "records": "records",
+    "preset": { "day": "Day", "week": "Week", "month": "Month", "year": "Year" }
+  },
+  "actions": {
+    "dropData": "Drop Data",
+    "dropConfirm": "Truncate all energy records?",
+    "dropped": "Data dropped successfully.",
+    "demoMode": "Demo Mode"
+  },
+  "home": {
+    "greeting": "Welcome back",
+    "welcomeTitle": "Your community at a glance",
+    "welcomeBody": "This dashboard compares the traditional grid bill against the community's Mid-Price settlement so every household can see, in forint, what shared energy is worth.",
+    "viewSavings": "View my savings",
+    "shortcutsTitle": "Jump in",
+    "shortcutsSubtitle": "Every view respects the selected date window and active household.",
+    "shortcuts": {
+      "mySavings": "See how much your household would save this month.",
+      "community": "Aggregate savings, self-sufficiency, and per-house breakdown.",
+      "profit": "Compare what prosumers earn selling to the community vs the grid.",
+      "live": "Inspect the latest hour of supply and demand across the community."
+    },
+    "kpis": {
+      "communitySavings": "Community savings",
+      "selfSufficiency": "Self-sufficiency",
+      "selfSufficiencyHint": "Share of demand covered by community solar",
+      "yourSavings": "Your savings",
+      "yourImport": "Your grid import",
+      "importHint": "Before community allocation"
+    }
+  },
+  "ab": {
+    "title": "Without vs With Community",
+    "subtitle": "Total cost across the selected window",
+    "titlePersonal": "{{name}} · without vs with community",
+    "subtitlePersonal": "Your household, over the selected window",
+    "without": "Without community",
+    "withoutHint": "Grid-only baseline",
+    "with": "With community",
+    "withHint": "Mid-Price (22.5 Ft/kWh shared)",
+    "savings": "Savings",
+    "selfSufficiency": "Community self-sufficiency",
+    "hoursAnalysed": "Hours analysed",
+    "vsBaseline": "vs baseline",
+    "unit": "Ft"
+  },
+  "community": {
+    "prosumer": "Prosumer",
+    "consumer": "Consumer",
+    "you": "This is you",
+    "name": "Household",
+    "role": "Role",
+    "import": "Import (kWh)",
+    "export": "Export (kWh)",
+    "baseline": "Baseline (Ft)",
+    "communityCost": "Community (Ft)",
+    "savings": "Savings (Ft)",
+    "profitExtra": "Extra profit (Ft)",
+    "selfSufficiency": "Self-sufficiency",
+    "table": {
+      "title": "Per-household settlement",
+      "subtitle": "Sorted by name. Positive savings mean the community model is cheaper than grid-only."
+    },
+    "kpi": {
+      "savings": "Total savings",
+      "selfSufficiency": "Self-sufficiency",
+      "selfSufficiencyHint": "Share of demand covered by community solar",
+      "households": "Households",
+      "totalEnergy": "Energy consumed",
+      "generated": "generated"
+    }
+  },
+  "profit": {
+    "title": "Prosumer profit increment",
+    "description": "Revenue when selling into the community at 22.5 Ft/kWh compared to 5 Ft/kWh into the grid.",
+    "gridOnly": "If sold to grid (5 Ft)",
+    "community": "With community (22.5 Ft)",
+    "increment": "Increment",
+    "breakdownTitle": "Per-prosumer increment",
+    "kpi": {
+      "totalIncrement": "Total extra profit",
+      "totalIncrementHint": "Across all prosumers in the window",
+      "soldToCommunity": "Shared to community",
+      "gridOnlyWouldBe": "Would have been (grid only)",
+      "gridOnlyHint": "If each kWh shared had been sold to grid at 5 Ft"
+    },
+    "diffLabel": "(22.5 Ft − 5 Ft × kWh)"
+  },
+  "my": {
+    "importFromGrid": "Imported from grid",
+    "importFromCommunity": "Bought from community",
+    "exportToCommunity": "Sold to community",
+    "exportToGrid": "Sold to grid",
+    "vsGrid": "vs grid-only",
+    "profitIncrement": {
+      "title": "Extra revenue from the community",
+      "body": "As a prosumer, each kWh you shared with the community earned 22.5 Ft instead of 5 Ft.",
+      "explain": "This figure is calculated from the kWh you sold into the community in the selected window."
+    }
+  },
+  "source": {
+    "title": "Realtime source mix",
+    "subtitle": "Latest settlement hour in the selected window",
+    "solar": "Solar (community)",
+    "grid": "Grid"
+  },
+  "live": {
+    "recentTitle": "Last 12 settlement hours",
+    "recentSubtitle": "Rolling view of community supply and demand",
+    "hour": "Hour",
+    "supply": "Supply",
+    "demand": "Demand",
+    "selfSuff": "Self-sufficiency"
+  },
+  "settings": {
+    "records": "Records ingested",
+    "first": "First record",
+    "last": "Last record",
+    "account": {
+      "title": "Signed-in household",
+      "subtitle": "Your identity is locked for this session. Sign out to return to the selection screen.",
+      "signOut": "Sign out / Switch household"
+    },
+    "window": {
+      "title": "Active date window",
+      "subtitle": "The window controls are available in the top bar and apply to every page."
+    },
+    "danger": {
+      "title": "Reset for a new Data Drop",
+      "subtitle": "Use this to clear all ingested measurements before re-uploading from PowerMocker.",
+      "body": "Users are preserved; only energy_records is truncated."
+    }
+  },
+  "charts": {
+    "savings": {
+      "title": "Daily cost comparison",
+      "subtitle": "Sum of hourly settlement per day in the selected window"
+    },
+    "self": {
+      "title": "Daily self-sufficiency",
+      "subtitle": "Share of community demand covered by community supply per day"
+    }
+  },
+  "loading": "Loading…",
+  "noData": "No data ingested yet. Run the PowerMocker uploader."
+}
